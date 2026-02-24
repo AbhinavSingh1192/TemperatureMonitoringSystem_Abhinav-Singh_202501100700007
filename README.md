@@ -21,3 +21,30 @@ If temperature > maximum → Display "Above Maximum Limit"
 Otherwise → Display "Within Safe Limits"
 Stop Condition
 User can stop the program using Ctrl + C.
+Sample Output 1 (Within Safe Range)
+Enter minimum temperature limit: 15
+Enter maximum temperature limit: 35
+
+Temperature Monitoring System Started...
+
+Current Temperature: 24.56 °C
+Temperature is within safe limits.
+
+Current Temperature: 30.12 °C
+Temperature is within safe limits.
+Sample Output 2 (Below Minimum Limit)
+Enter minimum temperature limit: 10
+Enter maximum temperature limit: 40
+
+Temperature Monitoring System Started...
+
+Current Temperature: 5.78 °C
+Temperature is BELOW minimum limit!
+Sample Output 3 (Above Maximum Limit)
+Enter minimum temperature limit: 18
+Enter maximum temperature limit: 32
+
+Temperature Monitoring System Started...
+
+Current Temperature: 41.23 °C
+Temperature is ABOVE maximum limit!
